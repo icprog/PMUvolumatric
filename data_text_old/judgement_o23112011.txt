@@ -1,0 +1,217 @@
+CALIBRATION 1_DATA JUDEMENT
+*****************Calibration 1 step 1*****************  
+Old Up Throw : 147~153
+Old Up Throw : 142~148
+Backlash displayed : 30~80
+Calculated"B"Value_(Bck-10) : 20~70
+COP Enable Result : d9
+Mis Value Adjust : 150~250
+Misload Value 1 : 150~160
+Misload Value 2 : 150~160
+Misload Value 3 : 150~160
+Misload Value Avg. : Cal.
+Misload Value Avg.-10 : 40~150
+Coarse Position(R115)Value: 180~240
+Temp Sensor 1 Terminal(Left): 21.0~31.0
+Temp Sensor 1 Meter(Left) : 21.0~31.0
+Temp Sensor 2 Terminal(Right) : 21.0~31.0
+Temp Sensor 2 Meter(Right) : 21.0~31.0
+Temp Sensor 1 Values in tol. : -3.0~3.0
+Temp Sensor 2 Values in tol. : .-3.0~3.0
+*****************Calibration 1 step 2_Volumetric*****************  
+Down Value (DN1) : 146~166
+Up Value (UP1) : 146~166
+Down Value (DN2) : 146~166
+Up Value (UP2) : 146~166
+Down Value (DN3) : 146~166
+Up Value (UP3) : 146~166
+Down Value (DN4) : 146~166
+Up Value (UP4) : 146~166
+Down Value (DN5) : 146~166
+Up Value (UP5) : 146~166
+Aggregate Sum (Value X) : Cal.Sum
+Balance Reading (Value Y) : Input data
+Error(X-Y/Y)*100 : -1.00~1.00
+DN_new : 146~166
+UP_new : 146~166
+    CALIBRATION 2_DATA JUDEMENT
+Initial Proximal (R119)Value : 1~255
+Initial Distal (R118)Value : 1~255
+Asjust Proximal (R119) : 40~255
+Asjust Distal (R118)Value : 40~255
+Initial value for "dist" (X) : 145~190
+Initial value for "doff" : 145~180
+Asjust Dist Value(300-X) : 110~200
+Initial Poff Value(Xoff) : 1~40
+New Poff Value (Ypoff) : 110~200
+Calculated Poff(Zdoff=Ypoff-Xdoff) : 95~255
+Initial doff Value (Xoff) : 1~100
+New doff Value (Yoff) : 120~200
+Calculated doff(Zdoff=Ydoff-Xdoff) : 95~255
+Temperature Sensor 1 (T1) : 210~310
+Temperature Sensor 2 (T2) : 210~310
+Avg TubeTemp=(T1+T2)/2 : 210~310
+25 PSI Calibration Value : 700~900
+Initial AIL Value : 40~200
+Adjust AIL Value(at1724+5mbar) : 245~250
+Adjust AIL Value(at1000+5mbar) : 245~250
+Primedl AIL Value : 190~237
+1000mbar Primed AIL Value : 190~237
+Empty Tube AIL Value : 40~128
+Fsc Without Slide Clamp : 0~20
+Bsc Without Slide Clamp : 0~20
+Fsc With Slide Clamp : 231~255
+Bsc With Slide Clamp : 230~255
+Manual Release Switch Jaws Fully open : 0
+Manual Release Switch Jaws Fully close : 1
+Presure Gauge Reading Trial 1 (P1) : 547~1129
+Presure Gauge Reading Trial 2 (P2) : 547~1129
+Presure Gauge Reading Trial 3 (P3) : 547~1129
+Paverage=(P1+P2+P3)/3 : Cal.
+NewSlope=[(Pavg*0.0145)+1.8/12)*100] : Cal.
+
+JAW SETUP and CAL 2 (STEP 3)_DATA JUDEMENT
+
+*************************JAW-MD Jitsu 163-2**************** 
+Coase INDEX 1 record : >(2)<(3)
+Coase CAL Down record : 40~170
+Coase CAL Up record : 160~255
+ITERATION 1:Asjust and record value of micrometer : =Chum value
+ITERTION 1CAL Down Record : 147~153
+ITERTION 2CAL Down Record : 147~153
+Cal Up Record : 150~154
+Cal Up record : 150~154
+Cal Down record : 150~154
+Cam shaft torque record : 200~1400
+
+************************Assy, Downstream Assembly******************* 
+Tube load motor no - load current (A) : 25~90
+     
+     ************************Assy, Pump Head Mechanism*******************
+Tube lode motor no - lode current : 25~90
+Vale (A) from item 6 : = Tube load motor no - load current (A)
+Diff=B-A : 1~19 
+Tube lode mechanism open : 4.0~8.0
+Tube lode mechanism close : 4.0~8.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+************************Colleague PCBA Calibration DATA Sheet*******************
+Coarse Pos Down Threshold : 61~120
+Coarse Pos Mid Threshold : 100~170
+Coarse Pos Up Threshold : 180240
+Distal Cal Slope : 70~120
+Distal Ref temp : 210~310
+Distal 25PSI Threshold : 501~1000
+Inlet Open Hi : 751~1100
+Inlet Open Lo : 551~1100
+Inlet Close Hi : 1201~1600
+Inlet Close Lo : 801~1500
+Outlet Open Hi : 701~1100
+Outlet Open Lo : 501~1100
+Outlet Close Hi : 1151~1800
+Outlet Close Lo : 751~1400
+Inlet No tube : 1251~1900
+Outlet No tube : 1201~2100
+Misload Low Cal Point : 0~90
+Misload Up Cal Point : 150~250
+Misload Threshold : 40~150
+Backlash : 30~70
+Shuttle Throw Volume Down : 146~166
+Shuttle Throw Volume Up : 146~166
+CRC : Input data
+Last SC : Input data
+SCM : Input data
+Outlet No Tube - Outlet Close Hi : >40
+Inlet No Tube - Inlet Close Hi : >40
+
+
+
+
+     
+     
+     
+   
+     POSTSCREENING  ~  ACCURACY TEST_DATA JUDEMENT
+     
+     *****************POST SCREENING TEST DATA***************** : 
+UI Master SW Version Check : 7.01.00(P 1.7) , 5.09.00(IBP)	
+UI Peripheral SW Version Check : 4.03.00(P 1.7) , 4.04.00(IBP) 
+Pumphead SW Version Check :  2.07.00(P 1.7) , 2.08.00(IBP) 
+Upstream Occlusion test : 1~29
+Upstream Tube (no tubing loaded) : =0
+Downstream Tube  (no tubing loaded) : =0
+Upstream Tube (tubing loaded) : =1
+Downstream Tube  (tubing loaded) : =1
+
+******************AIR IN LINE SENSOR CHECK DATA************** : 
+Empty tubing (Air Filled Tubing) : 40~128
+Fluid-filled tubing (No Back Pressure)-1 reding : 190~230
+Fluid-filled tubing (with 1000 +5mbar backpressure) 1 Reading : 190~237
+Fluid-filled tubing (No Back Pressure)-2 reding : 190~230
+Fluid-filled tubing (with 1000 +5mbar backpressure) 2 Reading : 190~237
+Fluid-filled tubing (No Back Pressure)-3 reding : 190~230
+Fluid-filled tubing (with 1000 +5mbar backpressure) 3 Reading : 190~237
+
+******************OCCLUSION TEST DATA ***************** : 
+138 mbar range  50-270 mbar : 50~270
+138 mbar range <480 sec/<8 min : 1~479
+276 mbar range 138-470 mbar : 138~470
+276 mbar range <30 sec : 1~29
+552 mbar range 342-798 mbar: 324~798
+552 mbar range <60 sec : 1~59
+828 mbar range 547-1129 mbar : 547~1129
+828 mbar range <75 sec : 1~74
+
+*******************ACCURACY TEST DATA******************* : 
+100 mL/hr (12 minute) test : 19.300(P 1.7) , 20.600(IBP)
+10 mL/hr (1 hour) test : 9.700(P 1.7) , 10.300(IBP)
+
+
+
+DATA LOG TEST ~ SENSOR RECHECK_DATA JUDEMENT
+     **********************VALVE VALUE DATA LOG TEST DATA SHEET******************** 
+Inlet Open Hi counts as recorded in P/H : 800~1100
+INV counts @ SMGOTO 1295 : 90~120
+INV counts @ SMGOTO 2825 : 90~120
+[((Step 2 value) +120)/8] - 12 : Cal.
+Outlet Open Hi counts as recorded in P/H : 800~1100
+OUTV counts @ SMGOTO 2050 : 90~120
+OUTV counts @ SMGOTO 520 : 90~120
+[((Step 9 value) +120)/8] - 12 : Cal.
+     **********************MD Jitsu 174-1 Sensor Re-Check Checklist******************** 
+Poff = Xpoff (Close) : 1~40
+Poff = Ypoff (Tube load) : 110~220
+Zoff = Ydoff - Xpoff : 95~220
+Doff = Xdoff (Close) : 1~100
+Doff = Ydpoff (Tube load) : 120~220
+Zdoff = Ydoff - Xdoff : 95~220
+fsc bsc (With side clamp)1 : 1~20
+fsc bsc (With side clamp)2 : 231~255
+fsc bsc (With side clamp)3 : 1~20
+fsc bsc (With side clamp)4 : 231~255
+mis (Close) at Calibration#2 : 150~250
+mis (Close) Misload JAWS : 150~250
+mis (Close) (B) - mis (Close) (A) : -10~10
+mis (Open) at Calibration#2 : 150~250
+mis (Open) ; Misload JAWS : 0~90
+mis (Open) (C) - mis (Open) (D) : -10~10
+ail (tube load) : 190~238
+ail (1000 mbar) : 190~237
+ail (Empty tube load) : 50~128
+grp moving shuttle (Cal 1) : 61~150
+ind (cal 1) : 101~190
+grp moving shuttle (index) : 40~100 
+ind (index) : 5~49
+grp moving shuttle (cal 3) : 180~240 
+ind (cal 3) : 210~255
